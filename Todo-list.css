@@ -1,0 +1,82 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: rgb(247, 207, 131);
+
+}
+
+.game {
+  display: flex;
+  flex-direction: column;
+  margin-top: -155px;
+  height: 100vh;
+  /* width: 100vh; */
+  justify-content: center;
+  /* align-content: center; */
+  align-items: center;
+
+}
+
+h2 {
+  margin-left: -310px;
+}
+
+.todo-grid,
+.todo-input-grid {
+  display: grid;
+  grid-template-columns: 350px 100px;
+  column-gap: 10px;
+  row-gap: 10px;
+  align-items: center;
+}
+
+
+.todo-input-grid {
+  align-items: stretch;
+}
+
+.input-list {
+  font-size: 15px;
+  padding: 10px;
+  width: 330px;
+  border: 2px solid;
+  border-radius: 12px;
+}
+
+.date-input {
+  font-size: 10px;
+  padding: 6px;
+}
+
+.add-button {
+  font: bold;
+  font-size: 18px;
+  background-color: rgb(13, 172, 7);
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.add-button:hover {
+  background-color: rgb(216, 216, 216);
+  color: rgb(23, 137, 49);
+  transition: 0.3s;
+}
+
+
+.delete-btn {
+  background-color: rgb(216, 12, 12);
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 18px;
+  width: 70px;
+  cursor: pointer;
+  transition: 0.3s;
+  padding: 8px 0;
+}
+
+.delete-btn:hover {
+  background-color: rgb(7, 179, 218);
+  color: red;
+  font: bold;
+}
