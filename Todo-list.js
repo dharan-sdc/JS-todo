@@ -2,6 +2,7 @@ const todoList = [];
 
 renderTodo()
 
+
 function renderTodo() {
 
   let todoListHTML = '';
@@ -13,7 +14,7 @@ function renderTodo() {
     // //const dueDate = todoObject.dueDate;
     const html = `    
       <div> ${name}</div>          
-      <button  class="delete-btn js-delete-btn">Cancel</button>             
+      <button  class="delete-btn js-delete-btn">Finished</button>             
      `;
     todoListHTML += html;
   })
@@ -52,3 +53,5 @@ function addTodo() {
 
   renderTodo()
 }
+
+
